@@ -5,9 +5,13 @@ import java.util.Scanner;
 public class ReverseNumber {
 
 	public static void main(String[] args) {
-		///Scanner sc=new Scanner()
+		Scanner sc=new Scanner(System.in);
+		System.out.println("User Enter number ");
 		
-		int num=1234;
+		int num=sc.nextInt();
+				
+				
+				
 		 StringBuilder str=new StringBuilder();
 		 str.append(num);
 		 StringBuilder reverse=str.reverse();
